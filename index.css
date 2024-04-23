@@ -1,1 +1,20 @@
-body{background-color:black; color:white;}
+body{background-color:black; color:white; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+    header{margin-top:60px; text-align:center;}
+        h1{margin:0;}
+        h2{margin:5px; font-size:14px; color:rgb(125, 1, 125);}
+
+    main{margin-top:80px;
+        text-align:center;}
+
+        #password-form{margin-bottom:40px;}
+
+        #password{width:250px; height:25px;
+                    border-color: rgb(125,1,125);}
+
+            /*#password:focus{width:300px; border-color:rgb(125,1,125)}*/
+        
+        #strength-meter{margin:auto; width:80px; height:40px;}
+
+        #strength-text{}

@@ -7,6 +7,28 @@
     <title>Password Strength Tool</title>
 </head>
 <body>
+
+    <header>
+        <h1> Password Strength Tool</h1>
+        <h2> Promoting Cyber-Self Defense Through Secure Password Practice </h2>
+    </header>
+
+
+    <main>
+        <form id = 'password-form'>
+            <input type = 'text' id = 'password' name = 'password' oninput="checkPasswordStrength()"> <br>
+            <label for = 'password'> Password </label> <br>
+        </form>
+
+        <div id = 'strength-meter'></div>
+        <div id = 'strength-text'>
+                
+        </div>
+
+
+
+    </main>
     
+    <script src = 'script.js'></script>
 </body>
 </html>
