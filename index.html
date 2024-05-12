@@ -10,24 +10,72 @@
 
     <header>
         <h1> Password Strength Tool</h1>
-        <h2> Promoting Cyber-Self Defense Through Secure Password Practice </h2>
+        <h3> Promoting Cyber-Self Defense Through Secure Password Practice </h3>
     </header>
 
 
     <main>
-        <form id = 'password-form'>
-            <input type = 'text' id = 'password' name = 'password' oninput="checkPasswordStrength()"> <br>
-            <label for = 'password'> Password </label> <br>
-        </form>
+        <div id = 'page1'>
+            <div id = 'quote-div'>  <p> "Using an easy-to-guess password is like locking the door but leaving the key in the lock.<br> 
+                Weak passwords can quickly be broken by computer hackers."<br>- CISA </p> 
+            </div>
 
-        <div id = 'strength-meter'></div>
-        <div id = 'strength-text'>
-                
+            <div id = 'requirements-div'> 
+
+                <p>  A strong password must contain: </p>
+                <ul>
+                    <li> 14 or more characters in total </li>
+                    <li> Both uppercase and lowercase characters </li>
+                    <li> At least one numeric character </li>
+                    <li> At least one symbol </li>
+                </ul>
+            
+            </div>
+
+            <div id = 'form-div'>
+                <form id = 'password-form'>
+                    <input type = 'password' id = 'password' placeholder="Password"
+                    name = 'password' oninput="passwordStrength()"> 
+                </form>
+
+                <div id="strength-meter">
+                    <div id="meter-move">
+                    </div>
+                </div>
+
+                <div id = 'visibility-div'>
+                    <input type = 'checkbox' id = 'visibility' onclick = 'showPassword()'>
+                    <label for = 'visibility' id = 'visibility-text'> Show Password </label>
+                </div>
+    
+                <div id = 'feedback-div'>
+                    <!--Password requirement feedback goes here -->
+                </div>
+            </div>
+
+        
+
+
+            <div id = 'transition'>
+                <div id = 'scrolldown-div'>
+                    <p>^</p>
+            </div> 
+
         </div>
 
 
+        
+        <div id = 'page2'>
+
+            <div id = 'info-content'>
+                <p id = 'info-title'> What Is A Strong Password? </p>
+            </div>
+
+        </div>
+
 
     </main>
+
     
     <script src = 'script.js'></script>
 </body>
