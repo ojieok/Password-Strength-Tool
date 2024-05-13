@@ -59,23 +59,3 @@ body{background-color:black; color:white;
 
         #feedback-div{background-color: rgb(10, 10, 10); color: rgb(160, 160, 160);
                        padding:10px; }
-        #feedback-div p{}
-
-
-
-        #transition{
-            #scrolldown-div{text-align:center; width:max-content; margin:auto; margin-bottom:60px;}
-            #scrolldown-div p{font-size:30px; color: rgb(125,1,125); transform: rotate(180deg); animation: blink 2s infinite;}
-        }
-        
-            @keyframes blink {
-                0%, 100%{opacity: 0.8;}
-                70%{opacity:0.15;}
-            }
-        
-
-        #info-content{
-            
-        }
-
-        #info-title{font-size:25px;}
