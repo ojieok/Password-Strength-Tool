@@ -1,2 +1,3 @@
 # Password-Strength-Tool
-A password strength checker, a front-end tool where users can input passwords, and assess the strength of the password based on criteria such as complexity, commonness, length, and type of characters contained.
+A password strength checker, a front-end tool where users input passwords, and the password strength is assessed based on its length and type of characters contained. Users receive feedback informing of their password strength, and improvements will be suggested if needed. 
+
